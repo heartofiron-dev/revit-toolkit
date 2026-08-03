@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <AddInId>5f15ea8e-0a72-4f03-9fdf-4f3a7610d1e3</AddInId>
+    <Name>Revision Proofread</Name>
+    <Text>Check Revisions</Text>
+    <Description>Revision check from Excel</Description>
+    <FullClassName>RevisionProofread.CheckRevisionCommand</FullClassName>
+    <Assembly>C:\RevisionProofread.dll</Assembly>
+    <VendorId>YL</VendorId>
+    <VendorDescription>Yanxi Revision Checker</VendorDescription>
+  </AddIn>
+</RevitAddIns>
