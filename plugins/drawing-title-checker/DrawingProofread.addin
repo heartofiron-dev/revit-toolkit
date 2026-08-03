@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <AddInId>c84a5af3-6a33-4fce-b460-9a4b1e30f111</AddInId>
+
+    <Name>DrawingProofread</Name>
+    <FullClassName>DrawingProofread.CheckDrawingTitleCommand</FullClassName>
+    <Text>Check Drawing Titles</Text>
+    <Description>Check drawing titles against CSV</Description>
+    <Assembly>C:\DrawingProofread.dll</Assembly>
+
+    <VendorId>YL</VendorId>
+    <VendorDescription>Yanxi Drawing Title Checker</VendorDescription>
+  </AddIn>
+</RevitAddIns>
