@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <!-- 命令1：隐藏/同步隐藏支吊架 -->
+  <AddIn Type="Command">
+    <Name>Pipe Hanger Tools - Hide/Unhide</Name>
+    <Assembly>C:\ProgramData\Autodesk\Revit\Addins\2025\pipec-2025.dll</Assembly>
+    <AddInId>{8E0D2C7B-4D68-4E7B-9F1E-3B4F3AF8C9D1}</AddInId>
+    <FullClassName>PipeHangerTools.HideHangersOfHiddenPipes</FullClassName>
+    <VendorId>PHAN</VendorId>
+    <VendorDescription>Pipe hanger utilities</VendorDescription>
+    <Text>Hide/Unhide hangers with pipes</Text>
+  </AddIn>
+
+  <!-- 命令2：选中管道并同时选中其支吊架 -->
+  <AddIn Type="Command">
+    <Name>Pipe Hanger Tools - Select</Name>
+    <Assembly>C:\ProgramData\Autodesk\Revit\Addins\2025\pipec-2025.dll</Assembly>
+    <AddInId>{8E0D2C7B-4D68-4E7B-9F1E-3B4F3AF8C9D1}</AddInId>
+    <FullClassName>PipeHangerTools.SelectHangersWithPipe</FullClassName>
+    <VendorId>PHAN</VendorId>
+    <VendorDescription>Pipe hanger utilities</VendorDescription>
+    <Text>Select hangers with selected pipes</Text>
+  </AddIn>
+</RevitAddIns>
